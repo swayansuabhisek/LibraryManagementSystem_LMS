@@ -1,0 +1,56 @@
+## Generated .gitignore for CentralGateway solution
+
+# Visual Studio / IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+*.Rider/
+
+# VS Code
+.vscode/
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+**/bin\
+**/obj\
+
+# ASP.NET / dotnet
+artifacts/
+*.dbmdl
+clientbin/
+# Ignore Release build outputs
+bin/Release/
+bin\Release/
+**/bin/Release/
+**/bin\Release/
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+
+# User secrets and local settings
+secrets.json
+appsettings.Development.json
+*.local
+.env
+
+# macOS
+.DS_Store
+
+# Misc
+*.pid
+*.cache
